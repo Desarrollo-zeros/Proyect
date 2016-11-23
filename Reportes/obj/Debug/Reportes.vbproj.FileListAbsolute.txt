@@ -1,0 +1,13 @@
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\bin\Debug\Reportes.dll.config
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\bin\Debug\Reportes.dll
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\bin\Debug\Reportes.pdb
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\bin\Debug\Reportes.xml
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\Reportes.vbprojResolveAssemblyReference.cache
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\Reportes.Factura.resources
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\Reportes.Resources.resources
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\Reportes.vbproj.GenerateResource.Cache
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\RdlCompile.cache
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\RdlCompile.compiled
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\Reportes.dll
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\Reportes.xml
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Reportes\obj\Debug\Reportes.pdb

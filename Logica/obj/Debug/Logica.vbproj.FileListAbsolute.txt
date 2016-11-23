@@ -1,0 +1,30 @@
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Logica.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Logica.pdb
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Logica.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Datos.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Entidades.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Datos.pdb
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Datos.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Entidades.pdb
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\bin\Debug\Entidades.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\obj\Debug\Logica.vbprojResolveAssemblyReference.cache
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\obj\Debug\Logica.Resources.resources
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\obj\Debug\Logica.vbproj.GenerateResource.Cache
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\obj\Debug\Logica.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\obj\Debug\Logica.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Logica\obj\Debug\Logica.pdb
+E:\ProyectoRestaurante\Logica\bin\Debug\Logica.dll
+E:\ProyectoRestaurante\Logica\bin\Debug\Logica.pdb
+E:\ProyectoRestaurante\Logica\bin\Debug\Logica.xml
+E:\ProyectoRestaurante\Logica\bin\Debug\Datos.dll
+E:\ProyectoRestaurante\Logica\bin\Debug\Entidades.dll
+E:\ProyectoRestaurante\Logica\bin\Debug\Datos.pdb
+E:\ProyectoRestaurante\Logica\bin\Debug\Datos.xml
+E:\ProyectoRestaurante\Logica\bin\Debug\Entidades.pdb
+E:\ProyectoRestaurante\Logica\bin\Debug\Entidades.xml
+E:\ProyectoRestaurante\Logica\obj\Debug\Logica.vbprojResolveAssemblyReference.cache
+E:\ProyectoRestaurante\Logica\obj\Debug\Logica.Resources.resources
+E:\ProyectoRestaurante\Logica\obj\Debug\Logica.vbproj.GenerateResource.Cache
+E:\ProyectoRestaurante\Logica\obj\Debug\Logica.dll
+E:\ProyectoRestaurante\Logica\obj\Debug\Logica.xml
+E:\ProyectoRestaurante\Logica\obj\Debug\Logica.pdb

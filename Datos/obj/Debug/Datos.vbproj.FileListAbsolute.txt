@@ -1,0 +1,26 @@
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\bin\Debug\Datos.dll.config
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\bin\Debug\Datos.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\bin\Debug\Datos.pdb
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\bin\Debug\Datos.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\bin\Debug\Entidades.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\bin\Debug\Entidades.pdb
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\bin\Debug\Entidades.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\obj\Debug\Datos.vbprojResolveAssemblyReference.cache
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\obj\Debug\Datos.Resources.resources
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\obj\Debug\Datos.vbproj.GenerateResource.Cache
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\obj\Debug\Datos.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\obj\Debug\Datos.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Datos\obj\Debug\Datos.pdb
+E:\ProyectoRestaurante\Datos\bin\Debug\Datos.dll.config
+E:\ProyectoRestaurante\Datos\bin\Debug\Datos.dll
+E:\ProyectoRestaurante\Datos\bin\Debug\Datos.pdb
+E:\ProyectoRestaurante\Datos\bin\Debug\Datos.xml
+E:\ProyectoRestaurante\Datos\bin\Debug\Entidades.dll
+E:\ProyectoRestaurante\Datos\bin\Debug\Entidades.pdb
+E:\ProyectoRestaurante\Datos\bin\Debug\Entidades.xml
+E:\ProyectoRestaurante\Datos\obj\Debug\Datos.vbprojResolveAssemblyReference.cache
+E:\ProyectoRestaurante\Datos\obj\Debug\Datos.Resources.resources
+E:\ProyectoRestaurante\Datos\obj\Debug\Datos.vbproj.GenerateResource.Cache
+E:\ProyectoRestaurante\Datos\obj\Debug\Datos.dll
+E:\ProyectoRestaurante\Datos\obj\Debug\Datos.xml
+E:\ProyectoRestaurante\Datos\obj\Debug\Datos.pdb

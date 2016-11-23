@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0343203-D209-47B6-B4AF-0B030C54C092}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Presentacion.My.MyApplication</StartupObject>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.2.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Graphicloads-Colorful-Long-Shadow-Restaurant.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DEF54AA5F0FD2CD621F4B8B1E3C94577BB860E21</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Presentacion_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoriaP.Designer.vb">
+      <DependentUpon>CategoriaP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriaP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.vb">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Declaraciones.vb" />
+    <Compile Include="Detalles_Venta.Designer.vb">
+      <DependentUpon>Detalles_Venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detalles_Venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaU.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FacturaU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListaPorUsuario.Designer.vb">
+      <DependentUpon>ListaPorUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListaPorUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PorFechaDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PorFechaDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PorFechaReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PorFechaReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PRINCIPAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRINCIPAL.Designer.vb">
+      <DependentUpon>PRINCIPAL.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFacturaP.Designer.vb">
+      <DependentUpon>FrmFacturaP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFacturaP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductos.Designer.vb">
+      <DependentUpon>FrmProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaPedidosG.Designer.vb">
+      <DependentUpon>ListaPedidosG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListaPedidosG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mesas.Designer.vb">
+      <DependentUpon>Mesas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mesas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Password.Designer.vb">
+      <DependentUpon>Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedidosMesa.Designer.vb">
+      <DependentUpon>PedidosMesa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PedidosMesa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.vb">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosPorCategoria.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductosPorCategoria.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportPorFecha.Designer.vb">
+      <DependentUpon>ReportPorFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPorFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TopProductos.Designer.vb">
+      <DependentUpon>TopProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TopProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuariosRes.Designer.vb">
+      <DependentUpon>UsuariosRes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosRes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentasPorCliente.Designer.vb">
+      <DependentUpon>VentasPorCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VentasPorCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentasR.Designer.vb">
+      <DependentUpon>VentasR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VentasR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPorFecha.Designer.vb">
+      <DependentUpon>VPorFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VPorFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CategoriaP.resx">
+      <DependentUpon>CategoriaP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detalles_Venta.resx">
+      <DependentUpon>Detalles_Venta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacturaU.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FacturaU.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaPorUsuario.resx">
+      <DependentUpon>ListaPorUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PorFechaReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PorFechaReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRINCIPAL.resx">
+      <DependentUpon>PRINCIPAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFacturaP.resx">
+      <DependentUpon>FrmFacturaP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductos.resx">
+      <DependentUpon>FrmProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaPedidosG.resx">
+      <DependentUpon>ListaPedidosG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mesas.resx">
+      <DependentUpon>Mesas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedidosMesa.resx">
+      <DependentUpon>PedidosMesa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosPorCategoria.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProductosPorCategoria.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPorFecha.resx">
+      <DependentUpon>ReportPorFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopProductos.resx">
+      <DependentUpon>TopProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuariosRes.resx">
+      <DependentUpon>UsuariosRes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentasPorCliente.resx">
+      <DependentUpon>VentasPorCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentasR.resx">
+      <DependentUpon>VentasR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VPorFecha.resx">
+      <DependentUpon>VPorFecha.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.vbproj">
+      <Project>{75f65c1c-f58b-4cbd-a18a-d0fe4a32606b}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logica\Logica.vbproj">
+      <Project>{b9ebce0b-d666-4b98-967d-3e6dda09d01c}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PorFechaDS.xsc">
+      <DependentUpon>PorFechaDS.xsd</DependentUpon>
+    </None>
+    <None Include="PorFechaDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PorFechaDS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PorFechaDS.xss">
+      <DependentUpon>PorFechaDS.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion_ClaveTemporal.pfx" />
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sinfoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ventas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3840x2400-table_photography_food_glass_chair_restaurant-28236.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trellis-Restaurant-Lamb-Carpaccio-uhd-wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-la-imagen-icono-4549-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trellis-Restaurant-Lamb-Carpaccio-uhd-wallpapers1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3840x2400-table_photography_food_glass_chair_restaurant-282361.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ventas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restaurante2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restaurante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imprimir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ELIMINAR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDO3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardarv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sinft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Graphicloads-Colorful-Long-Shadow-Restaurant.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

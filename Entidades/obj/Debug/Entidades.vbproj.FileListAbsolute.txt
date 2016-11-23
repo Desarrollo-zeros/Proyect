@@ -1,0 +1,9 @@
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Entidades\bin\Debug\Entidades.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Entidades\bin\Debug\Entidades.pdb
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Entidades\bin\Debug\Entidades.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Entidades\obj\Debug\Entidades.Resources.resources
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Entidades\obj\Debug\Entidades.dll
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Entidades\obj\Debug\Entidades.xml
+c:\users\jaime\documents\visual studio 2013\Projects\ProyectoRestaurante\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Jaime\Documents\Visual Studio 2013\Projects\ProyectoRestaurante\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
