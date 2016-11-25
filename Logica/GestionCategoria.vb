@@ -13,6 +13,10 @@
             Return "ERROR AL GUARDAR"
         End Try
     End Function
+	
+	
+	
+	
 
     Public Function listado() As DataTable
         Try
